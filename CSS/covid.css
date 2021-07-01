@@ -1,0 +1,123 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  line-height: 1.4;
+  font-size: 1.5rem;
+  background-image: url("../Assets/patientbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.covid-tracker {
+  padding: 45px;
+  text-align: center;
+}
+
+.covid-tracker h1 {
+  margin-bottom: 0.5rem;
+  color: white;
+}
+.covid-tracker img {
+  height: 1.2rem;
+}
+
+.covid-tracker .c-card {
+  width: 30%;
+  height: 18%;
+  background: rgb(233, 225, 225);
+  color: #555;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 7px;
+  border-radius: 4px;
+  border: 1px solid var(--divider-bg);
+  text-align: center;
+  padding-top: 7%;
+  font-size: 20px;
+}
+
+/* .covid-tracker .c-card:nth-of-type(1) {
+}
+.covid-tracker .c-card:nth-of-type(2) {
+}
+.covid-tracker .c-card:nth-of-type(3) {
+}
+.covid-tracker .c-card:nth-of-type(4) {
+}
+.covid-tracker .c-card:nth-of-type(5) {
+}
+.covid-tracker .c-card:nth-of-type(6) {
+} */
+
+.covid-tracker .c-card i {
+  margin-left: 0.5rem;
+}
+.covid-tracker .c-card span {
+  margin-left: 1rem;
+}
+.covid-tracker .c-card h4 {
+  margin-left: 1rem;
+}
+
+.animatediv img:nth-child(1) {
+  position: absolute;
+  right: +60rem;
+  top: -8rem;
+}
+
+.animatediv img:nth-child(2) {
+  position: absolute;
+  left: -35rem;
+  bottom: +8rem;
+}
+.animatediv {
+  animation: MoveUpDown 6s linear infinite alternate-reverse;
+  position: absolute;
+  right: 300px;
+}
+/* position of corona animation */
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    top: 150px;
+  }
+  50% {
+    top: 550px;
+  }
+}
+#cases,
+#active,
+#critical,
+#death,
+#recovered,
+#tests {
+  font-size: 30px;
+}
+
+#icon {
+  font-size: 30px;
+}
+#flag {
+  font-size: 30px;
+}
+#iconch {
+  font-size: 45px;
+  padding-left: 3px;
+}
+.iconch {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  width: 50px;
+  height: 50px;
+  color: rgb(241, 118, 46);
+}

@@ -1,0 +1,131 @@
+body {
+  font-size: 1em;
+  background-image: url("../Assets/patientbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", Arial, Verdana, sans-serif;
+}
+.side-menu {
+  width: 13.5em;
+  height: auto;
+  margin: 0px;
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 15%;
+  bottom: 0;
+  left: -10em;
+}
+.side-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.side-menu ul li {
+  display: block;
+  background-color: rgb(255, 0, 0);
+  height: 2em;
+  padding: 1em 1.5em;
+
+  position: relative;
+  -webkit-transition: -webkit-transform 0.5s, background-color 0.5s, color 0.5s;
+  transition: transform 0.5s, background-color 0.5s, color 0.5s;
+}
+/*the colors of the different columns*/
+.side-menu ul li:nth-child(1) {
+  background-color: #092c8b;
+  border-radius: 0px 15px 0px 0px;
+}
+.side-menu ul li:nth-child(2) {
+  background-color: #0a7e0f;
+  border-radius: 0px 0px 0px 0px;
+}
+.side-menu ul li:nth-child(3) {
+  background-color: #ad20ad;
+  border-radius: 0px 0px 0px 0px;
+}
+.side-menu ul li:nth-child(4) {
+  background-color: #1e7145;
+  border-radius: 0px 0px 0px 0px;
+}
+.side-menu ul li:nth-child(5) {
+  background-color: #ffc40d;
+  border-radius: 0px 0px 0px 0px;
+}
+.side-menu ul li:nth-child(6) {
+  background-color: rgb(255, 0, 0);
+  border-radius: 0px 0px 15px 0px;
+}
+
+.side-menu ul li:hover {
+  background-color: #53ccc2;
+  -webkit-transform: translateX(10em);
+  border-radius: 0px 15px 15px 0px;
+
+  transform: translateX(10em); /*equal to left in the .side-menu*/
+}
+.side-menu ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 17.8px;
+}
+.side-menu ul li span {
+  display: block;
+  position: absolute;
+  font-size: 1.5em;
+  line-height: 2em;
+  height: 2em;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+  padding: 1em 1.5em;
+  right: 0.16666666666667em;
+  color: #f8f6ff;
+}
+
+#pos {
+  position: absolute;
+  left: -67%;
+  top: -27%;
+}
+.header {
+  width: 60%;
+  height: 400px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.664);
+  color: #24282c;
+  font-size: 30px;
+}
+.welcome {
+  text-align: center;
+  padding-top: 9%;
+}
+
+#buttpos {
+  padding-top: 20%;
+}
+
+#card1 {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#iconch {
+  font-size: 45px;
+  padding-left: 3px;
+}
+.iconch {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  width: 50px;
+  height: 50px;
+  color: rgb(241, 118, 46);
+}

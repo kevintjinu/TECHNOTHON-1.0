@@ -29,7 +29,7 @@ Amidst this pandemic, Patients face many difficulties such as going to hospitals
 E- Prescription allows patients to access their prescriptions anywhere without the fear of losing them. Paients are able to view their pulse in real time using our AI pulse Monitor. We also included features such as Video calling, a Chatting Platform for ease of communication with their doctor, a BMI Calculator, and a COVID-19 Tracker as well.
 
 # Solution
-This is where Mayo Clinic comes into play. It acts as a platform between a doctor and their patients. This application is mainly made for the patients who are currently home quarantined due to Covid or due to any other pre-existing conditions. One of the features named 'E-prescription' tackles one of the most common problems a patient faces which is losing/misplacing their prescriptions. We solve this by letting Doctors upload their patient's prescription onto the website which can be accessed by the patients with ease. Features such as video calling and the chat channel help us to bridge the gap between the doctor and their patients. A regular data that is taken into consideration during an examination is the patient's heart-rate and not all patients have access to a reader at home, and so we have built a heart rate reader using AI to help doctors get this crucial information. We have also implemented a rather simple yet much required BMI calculator. Covid-19 has wreaked havoc all around the earth and to keep up with the latest data, we have also built in a Covid-19 tracker which keeps a track of the total number of cases, number of deaths number of active cases, and much more.
+This is where Mayo Clinic comes into play. It acts as a platform between a doctor and their patients. This application is mainly made for the patients who are currently home quarantined due to Covid or due to any other pre-existing conditions. One of the features named 'E-prescription' tackles one of the most common problems a patient faces which is losing/misplacing their prescriptions. We solve this by letting Doctors upload their patient's prescriptions onto the website which can be accessed by the patients with ease. Features such as video calling and the chat channel help us to bridge the gap between the doctor and their patients. A regular data that is taken into consideration during an examination is the patient's heart-rate and not all patients have access to a reader at home, and so we have built a heart rate reader using AI to help doctors get this crucial information. We have also implemented a rather simple yet much required BMI calculator. Covid-19 has wreaked havoc all around the earth and to keep up with the latest data, we have also built in a Covid-19 tracker which keeps a track of the total number of cases,the number of deaths number of active cases, and much more.
 
 ## Tech Stack used
 
@@ -67,7 +67,7 @@ This is where Mayo Clinic comes into play. It acts as a platform between a docto
 
 ## Demo
 
-Checkout the demo video from [here](https://youtu.be/kMC4UcKwrlU).
+Checkout the demo video from [here](https://youtu.be/by7GalIYopE).
 
 ## PPT
 

@@ -94,5 +94,7 @@ Login
 <br>
 AI pulse Monitor
 ![Video Call](gitImg/AI.png)
+Doctor dashboard
+![dashboard](gitImg/dashboard.png)
 Chat Options
 ![Video Call](gitImg/videocall.png)

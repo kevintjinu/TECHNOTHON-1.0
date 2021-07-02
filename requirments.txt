@@ -1,0 +1,6 @@
+numpy
+pandas
+openCV-Python
+matplotlib
+flask
+websocket

@@ -1,46 +1,89 @@
-# DOLO-650
-Project build for HACK THE MOUNTAINS 2.O
+## Team - Paracetamol
+# HealthCare
+Project based on HealthCare.
 
-## Tagline
-<!-- Dolo-650 is a web application that helps patients connect with their doctors easily over the internet. We provide various methods of communicating with their doctors using login credentials. -->
+# Mayo Clinic
+Project build for TECHNOTHON 1.0
 
-## Problem Statement:
-<!-- During this pandemic, patients find it hard to visit hospitals and communicate with their doctors with ease. This is where Dolo-650 comes into play. It acts as a platform between a doctor and their patients. This application was mainly made for the patients who are currently home quarantined due to covid or due to any other pre-existing conditions. We have included features such as Video calling, a Chatting Platform, E- Prescription, BMI Calculator, and a COVID-19 Tracker as well.
- -->
+# College Name
+SRM IST KTR
+
+## Theme - HealthCare
+Project based on HealthCare.
+
+# Details of all Team Members
+- Kevin T Jinu (SRM IST KTR)
+- Adhith Sankar (SRM IST KTR)
+- Keshav Rao (SRM IST KTR)
+- Deepak Shrinivas (SRM IST KTR)
+
+# Discord Usernames of TEAM MEMBERS
+- Kevin Jinu | Participant
+- Adhith Sankar | Participant
+- Deepak Shrinivas | Participant
+- Keshav Rao | Participant
+
+
+# Tagline
+<!-- Mayo Clinic is a web application that helps patients connect with their doctors easily over the internet. We provide various methods of communicating with their doctors using login credentials. -->
+
+# Detailed Explanation of the Idea
+During this pandemic, patients find it hard to visit hospitals and communicate with their doctors with ease. This is where Dolo-650 comes into play. It acts as a platform between a doctor and their patients. This application was mainly made for the patients who are currently home quarantined due to covid or due to any other pre-existing conditions. We have included features such as Video calling, a Chatting Platform, E- Prescription, BMI Calculator, and a COVID-19 Tracker as well.
+
+# Solution
+This is where Mayo Clinic comes into play. It acts as a platform between a doctor and their patients. This application was mainly made for the patients who are currently home quarantined due to covid or due to any other pre-existing conditions. 
+
+# Tech Stack used 
+- HTML
+- CSS
+- JavaScript
+- Firebase Cloud Database
+- Firebase Authentication
+- Bootstrap
+- WebSocket
+- OpenCV-Python
+- Flask
+
+# Step by Step Procedure to run your respective Project in our Local Machine 
+
+      Step 1 :
+    
+        Fork this repository or else use git clone, to clone the repository on your local machine
+    
+      Step 2 :
+    
+        Install the requirments.txt file 
+    
+      Step 3 :
+    
+        Open the code in any code editor (eg VsCode, Jupyter Notebook)
+    
+      Step 4 :
+    
+        Terminal 1:
+        Run "node server.js" 
+
+        Terminal 2:
+        Run "python detector.py"
+
 ## Demo
 Checkout the demo video from [here](https://youtu.be/kMC4UcKwrlU).
 
 ## PPT
-[here](https://drive.google.com/file/d/1is-QnCbRfYK0lkSyxZvEglxj9OFveGb4/view?usp=sharing)
-
-## What Inspired
-<!-- Patients find it hard to visit hospitals and communicate with their doctors with ease during this covid pandemic and patients often tend to lose their prescription forms after fews weeks. -->
-
-## What it does
+[here](https://drive.google.com/file/d/1_gtecq73eBg-j7EYOndyVS28Q4nAWrjK/view?usp=sharing)
 
 
-## How we built it
-- HTML
-- CSS
-- JavaScript
-- Firebase (Authentication and Chatting)
-- Websocket (Video)
+# Challenges we ran into
+As this was actually our first hackathon, we ran into the problem of time management. We had a lot more planned for this project, such as AI pulse Rate Detector using Python Libraries and other features such as implementing graphs for the data generated over time. We ran into a bit of a problem while working with the firebase authentication which has since been resolved successfully. We believe we have a solid project on hand and we have done to the best of our abilities to get to this point. We hope you like our project.
 
-## Challenges we ran into
-<!-- As this was actually our first hackathon, we ran into the problem of time management. We had a lot more planned for this project, such as AI pulse Rate Detector using Python Libraries and other features such as implementing graphs for the data generated over time. We ran into a bit of a problem while working with the firebase authentication which has since been resolved successfully. We believe we have a solid project on hand and we have done to the best of our abilities to get to this point. We hope you like our project. -->
+# Future Updates
+- We are planning to add a module for appointment booking
+- We will be bringing a graphical representation of the BMI of a patient
+- We will be implementing a diabetes tracker where the patient will keep a track of his diabetes level
+- Indicating cancer with a  CT- Scan using AI and Machine learning
+- Implementation of Eye Checking in the video call with doctor
 
-
-## Accomplishments that we're proud of
-<!-- As mentioned above, this was our first hackathon and hence building a project that is rather huge than the small programs we run on the daily, we have a sense of satisfaction. Also, we learnt firsthand on how a project is build and learnt where we can make changes to make the entire process more efficient. We are all glad and happy to be a part of this hackathon. -->
-
-## What we learned
-<!-- Firebase authentication, using advance Javascript. -->
-
-## Future Updates
-<!-- - To implement an AI module which detects Pulse and Heart rate by just looking into the camera 
-- Plotting Graphs for the data set recieved -->
-
-## Some glimpse of the site
+# Some glimpse of the site
 Homepage
 ![Home](gitImg/About.png)
 Login
@@ -50,6 +93,3 @@ Doctor dashboard
 ![dashboard](gitImg/dashboard.png)
 Chat Options
 ![Video Call](gitImg/videocall.png)
-
-## HealthCare
-Project based on HealthCare.

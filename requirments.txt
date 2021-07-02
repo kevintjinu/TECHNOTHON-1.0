@@ -1,6 +1,9 @@
-numpy
-pandas
-openCV-Python
-matplotlib
-flask
-websocket
+pip install:
+{
+    1. numpy
+    2. openCV-Python
+    3. matplotlib
+    4. flask
+}
+
+npm install websocket

@@ -72,7 +72,7 @@ Checkout the demo video from [here](https://youtu.be/kMC4UcKwrlU).
 
 ## PPT
 
-[here](https://drive.google.com/file/d/1_gtecq73eBg-j7EYOndyVS28Q4nAWrjK/view?usp=sharing)
+Checkout the PPT [here](https://drive.google.com/file/d/1_gtecq73eBg-j7EYOndyVS28Q4nAWrjK/view?usp=sharing)
 
 ## Challenges we ran into
 
@@ -95,5 +95,7 @@ Login
 <br>
 Doctor dashboard
 ![dashboard](gitImg/dashboard.png)
+AI pulse Monitor
+![Video Call](gitImg/videocall.png)
 Chat Options
 ![Video Call](gitImg/videocall.png)

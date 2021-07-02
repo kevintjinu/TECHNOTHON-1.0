@@ -92,8 +92,6 @@ Homepage
 Login
 ![login](gitImg/login.png)
 <br>
-Doctor dashboard
-![dashboard](gitImg/dashboard.png)
 AI pulse Monitor
 ![Video Call](gitImg/AI.png)
 Chat Options

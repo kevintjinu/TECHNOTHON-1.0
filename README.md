@@ -29,8 +29,7 @@ Amidst this pandemic, Patients face many difficulties such as going to hospitals
 E- Prescription allows patients to access their prescriptions anywhere without the fear of losing them. Paients are able to view their pulse in real time using our AI pulse Monitor. We also included features such as Video calling, a Chatting Platform for ease of communication with their doctor, a BMI Calculator, and a COVID-19 Tracker as well.
 
 # Solution
-keshav
-<!-- This is where Mayo Clinic comes into play. It acts as a platform between a doctor and their patients. This application was mainly made for the patients who are currently home quarantined due to covid or due to any other pre-existing conditions. -->
+This is where Mayo Clinic comes into play. It acts as a platform between a doctor and their patients. This application is mainly made for the patients who are currently home quarantined due to Covid or due to any other pre-existing conditions. One of the features named 'E-prescription' tackles one of the most common problems a patient faces which is losing/misplacing their prescriptions. We solve this by letting Doctors upload their patient's prescription onto the website which can be accessed by the patients with ease. Features such as video calling and the chat channel help us to bridge the gap between the doctor and their patients. A regular data that is taken into consideration during an examination is the patient's heart-rate and not all patients have access to a reader at home, and so we have built a heart rate reader using AI to help doctors get this crucial information. We have also implemented a rather simple yet much required BMI calculator. Covid-19 has wreaked havoc all around the earth and to keep up with the latest data, we have also built in a Covid-19 tracker which keeps a track of the total number of cases, number of deaths number of active cases, and much more.
 
 ## Tech Stack used
 
@@ -76,7 +75,7 @@ Checkout the PPT [here](https://drive.google.com/file/d/1_gtecq73eBg-j7EYOndyVS2
 
 ## Challenges we ran into
 
-<!-- We ran into the problem of time management. We ran into a bit of a problem while working with the firebase authentication which has since been resolved successfully. We believe we have a solid project on hand and we have done to the best of our abilities to get to this point. We hope you like this project. -->
+We ran into a little problem when we were working on the firebase authentication and also on the firebase data storage and data retrieval. Both have since been resolved and are now working flawlessly. We believe we have a solid project on-hand and we have done to the best of our abilities to get to this point. We hope you like this project and we had a great experience building this project and we are very grateful to be a part of Technothon 1.0.
 
 ## Future Updates
 

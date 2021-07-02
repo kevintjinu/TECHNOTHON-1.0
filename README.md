@@ -89,12 +89,16 @@ We ran into a little problem when we were working on the firebase authentication
 
 Homepage
 ![Home](gitImg/About.png)
+<br><br>
 Login
 ![login](gitImg/login.png)
-<br>
+<br><br>
 AI pulse Monitor
 ![Video Call](gitImg/AI.png)
+<br><br>
 Doctor dashboard
 ![dashboard](gitImg/dashboard.png)
+<br><br>
 Chat Options
 ![Video Call](gitImg/videocall.png)
+<br><br>

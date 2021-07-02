@@ -2,7 +2,8 @@ body {
     background-image: url("../Assets/docbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-family:"Roboto", Arial, Verdana, sans-serif;
+    text-align: center;
   }
   .side-menu {
     width: 13.5em;
@@ -199,4 +200,6 @@ body {
   h4 {
     font-size: 25px;
   }
-  
+  input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }

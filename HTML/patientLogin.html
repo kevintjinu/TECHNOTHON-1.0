@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Patient Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/patientLogin.css">
+</head>
+
+<body>
+
+    <div id="login_div" class="main-div" style="padding-top:5%">
+        <h3 style="color:white">Patient Login</h3>
+        <input type="email" placeholder="Patient Email" id="email_field" />
+        <input type="password" placeholder="Password" id="password_field" />
+
+        <a style="text-decoration:none"><button style="background-color:#1768AC;border-color: #1768AC;"
+                onclick="login()">Login to Account <i class="fa fa-sign-in" aria-hidden="true"
+                    style="padding-left:5px"></i></button></a>
+        <br>
+        <a href="docLogin.html" style="text-decoration:none"><button
+                style="background-color:#ff7e17;border-color: #ff7e17;">Login as Doctor <i class="fa fa-sign-in"
+                    aria-hidden="true" style="padding-left:5px;"></i></button></a>
+
+    </div>
+
+    <div id="user_div" class="loggedin-div">
+        <h3>Welcome User</h3>
+        <p id="user_para">Welcome to patient login Example. You're currently logged in.</p>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDAPk0HMO-o9dKtjBAnCbPvSEI6sRzHCFo",
+            authDomain: "patient-dolo-650.firebaseapp.com",
+            projectId: "patient-dolo-650",
+            storageBucket: "patient-dolo-650.appspot.com",
+            messagingSenderId: "166390985613",
+            appId: "1:166390985613:web:b934248197116ca3ee03c4",
+            measurementId: "G-V40FBQQZWD"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="../JS/patient.js"></script>
+
+</body>
+
+</html>

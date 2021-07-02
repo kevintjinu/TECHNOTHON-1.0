@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../CSS/prescription.css">
+  <title>Welcome Patient</title>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+</head>
+
+<body>
+  <a class="iconch" href="patient.html"><i id="iconch" class="fa fa-home" aria-hidden="true"></i></a>
+
+
+
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+    <h1>Your Prescriptions</h1>
+    <br>
+    <section id="service1" class="d-flex flex-column justify-content-center">
+      <div class="services">
+
+
+        <div class="card">
+
+
+
+          <div class="kesh">
+            <h4><b>Name</b></h4> <br>
+            <input type="text" id="Nametxt1" style="border: none;">
+          </div>
+        </div>
+
+        <div class="card">
+
+          <div class="kesh">
+            <h4><b>Diagnosis</b></h4> <br>
+            <input type="text" id="Diagnosis1" style="border: none;">
+          </div>
+        </div>
+        <div class="card">
+          <div class="kesh">
+            <h4><b>Prescribed Medicines</b></h4>
+            <input type="text" id="med11" style="border: none;">
+            <input type="text" id="med21" style="border: none;">
+            <input type="text" id="med31" style="border: none;">
+
+          </div>
+        </div>
+        <div class="card"
+          style="background-color: #67cbce;position: absolute;height:100px;top:110%;border-radius: 10px;">
+          <input placeholder="Enter ID to retrive details" type="text" id="ID1"
+            style="position:absolute;top:25%;right: 25%;border-radius: 5px;height: 30px;border: none;">
+          <button id="select"
+            style="position:absolute;top:55%;right: 35%;border-radius: 5px;background-color: rgb(17, 49, 110);color:white;margin-top: 5px;">Retrive
+            Data</button>
+        </div>
+
+      </div>
+    </section>
+
+  </center>
+  <script>
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyDaU1bXnd_3qvsX0FZz_KAT5QIEsE_KfyA",
+      authDomain: "prescription-619d6.firebaseapp.com",
+      projectId: "prescription-619d6",
+      storageBucket: "prescription-619d6.appspot.com",
+      messagingSenderId: "752774153523",
+      appId: "1:752774153523:web:7500882042e320566e2a46"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    document.getElementById('select').onclick = function () {
+      //   Ready();
+      firebase.database().ref('Prescriptions/' + document.getElementById('ID1').value).on('value', function (snapshot) {
+        document.getElementById('Nametxt1').value = snapshot.val().Nameofpatient;
+        document.getElementById('Diagnosis1').value = snapshot.val().Diagnosis;
+        document.getElementById('med11').value = snapshot.val().MedA;
+        document.getElementById('med21').value = snapshot.val().MedB;
+        document.getElementById('med31').value = snapshot.val().MedC;
+      })
+    }
+  </script>
+</body>
+
+</html>

@@ -8,7 +8,7 @@ body {
   left: 38%;
   top: 3%;
   width: 475px;
-  height: 730px;
+  height: 670px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background-color: #b7f5fd;
@@ -26,10 +26,11 @@ body {
 }
 .login-card {
   padding: 2px 16px;
+
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 15px;
-  background-image: linear-gradient(to right, #FF7600, #FFA900);
+  background-image: linear-gradient(to right, #94d0cc, #005a8d);
 }
 
 input {

@@ -1,7 +1,5 @@
 firebase.auth().onAuthStateChanged(function (user) {
   if (user) {
-    // User is signed in.
-
     document.getElementById("user_div").style.display = "block";
     document.getElementById("login_div").style.display = "none";
 
@@ -11,11 +9,9 @@ firebase.auth().onAuthStateChanged(function (user) {
       var email_id = user.email;
       document.getElementById("user_para").innerHTML =
         "Welcome Doctor : " + email_id;
-        window.location.replace("../HTML/Docdashboard.html");
+      window.location.replace("../HTML/Docdashboard.html");
     }
   } else {
-    // No user is signed in.
-
     document.getElementById("user_div").style.display = "none";
     document.getElementById("login_div").style.display = "block";
   }
@@ -29,13 +25,10 @@ function login() {
     .auth()
     .signInWithEmailAndPassword(userEmail, userPass)
     .catch(function (error) {
-      // Handle Errors here.
       var errorCode = error.code;
       var errorMessage = error.message;
 
       window.alert("Error : " + errorMessage);
-
-      // ...
     });
 }
 

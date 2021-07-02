@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Doctor Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/docLogin.css">
+</head>
+
+<body>
+
+    <div id="login_div" class="main-div" style="padding-top:5%">
+        <h3 style="color:white">Doctor Login</h3>
+        <input type="email" placeholder="Doctor Email" id="email_field" />
+        <input type="password" placeholder="Password" id="password_field" />
+
+        <button onclick="login()">Login to Account <i class="fa fa-sign-in" aria-hidden="true"
+                style="padding-left:5px"></i></button>
+        <br>
+        <a href="patientLogin.html" style="text-decoration:none"><button
+                style="background-color:#5788F1;border-color: #5788F1;">Login as Patient <i class="fa fa-sign-in"
+                    aria-hidden="true" style="padding-left:5px;"></i></button></a>
+
+    </div>
+
+    <div id="user_div" class="loggedin-div">
+        <h3>Welcome User</h3>
+        <p id="user_para">Welcome to doctor login Example. You're currently logged in.</p>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBoeNzQ_to7DelwlVXosDahp17xu8BI90I",
+            authDomain: "dolo-650-7aeee.firebaseapp.com",
+            projectId: "dolo-650-7aeee",
+            storageBucket: "dolo-650-7aeee.appspot.com",
+            messagingSenderId: "973071915696",
+            appId: "1:973071915696:web:aecce5ad2d92b50d27f975",
+            measurementId: "G-9NDC8MPZW8"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="../JS/docLogin.js"></script>
+
+</body>
+
+</html>

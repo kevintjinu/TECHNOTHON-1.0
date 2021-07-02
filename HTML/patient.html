@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../CSS/patient.css">
+  <title>Welcome Patient</title>
+
+</head>
+
+<body>
+
+  <nav class="side-menu">
+    <ul>
+      <li><a href="../HTML/prescription.html">Prescriptions<span><i class="fa fa-book"></i></span></a></li>
+      <li><a href="choice.html">Chat<span><i class="fa fa-whatsapp"></i></span></a></li>
+      <li><a href="http://127.0.0.1:5000/">AI Pulse Rate Monitor<span><i class="fa fa-heartbeat"></i></span></a></li>
+      <li><a href="covid.html">COVID-19 Tracker<span><i class="fa fa-medkit"></i></span></a></li>
+      <li><a href="bmi.html">BMI Tracker<span><i class="fa fa-balance-scale"></i></span></a></li>
+      <li><a href="patientLogin.html" onclick="logout()">Logout<span><i class="fa fa-sign-out"></i></span></a></li>
+    </ul>
+  </nav>
+
+
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+    <div class="header">
+      <div class="welcome">
+        <h1>Welcome</h1>
+        <p>This is your dashboard, check the navbar on the left</p>
+      </div>
+    </div>
+  </center>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDAPk0HMO-o9dKtjBAnCbPvSEI6sRzHCFo",
+    authDomain: "patient-dolo-650.firebaseapp.com",
+    projectId: "patient-dolo-650",
+    storageBucket: "patient-dolo-650.appspot.com",
+    messagingSenderId: "166390985613",
+    appId: "1:166390985613:web:b934248197116ca3ee03c4",
+    measurementId: "G-V40FBQQZWD"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="../JS/patient.js"></script>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="../CSS/docbmi.css">
+  <title>BMI Calculator</title>
+
+</head>
+
+<body>
+  <div id="pos">
+    <nav class="side-menu">
+      <ul>
+        <li><a href="Docdashboard.html">Home<span><i class="fa fa-home"></i></span></a></li>
+      </ul>
+    </nav>
+  </div>
+  <form class="c-bmi">
+    <label class="c-bmi__label"><strong>Height</strong>
+      <input class="c-bmi__range" type="range" name="h" min="150" max="230" step="0.5" value="180" />
+      <output name="ho"><output>
+    </label>
+    <label class="c-bmi__label"><strong>Weight</strong>
+      <input class="c-bmi__range" type="range" name="w" min="35" max="200" step="0.1" value="75" />
+      <output name="wo">75</output>
+    </label>
+    <div class="c-bmi__result">Your BMI Is: <output name="r"></output></div>
+    <div class="c-bmi__groups" readonly>
+      <input type="radio" id="bmi-g0" name="g" />
+      <label for="bmi-g0">Underweight</label>
+      <div class="c-bmi__group-text">The WHO regards a BMI of less than 18.5 as underweight and may indicate
+        malnutrition, an eating disorder, or other health problems.</div>
+      <input type="radio" id="bmi-g1" name="g" checked />
+      <label for="bmi-g1">Normal</label>
+      <div class="c-bmi__group-text"><br>A BMI between 18.5 and 25 is considered normal and healthy. </div>
+      <input type="radio" id="bmi-g2" name="g" />
+      <label for="bmi-g2">Pre-obesity</label>
+      <div class="c-bmi__group-text">People who fall into this category may be at risk of developing obesity.<br />This
+        was earlier classified as "overweight".</div>
+      <input type="radio" id="bmi-g3" name="g" />
+      <label for="bmi-g3">Obese I</label>
+      <div class="c-bmi__group-text">People who have BMI equal or over 30 may have obesity, which is defined as an
+        abnormal or excessive accumulation of fat that may harm health.</div>
+      <input type="radio" id="bmi-g4" name="g" />
+      <label for="bmi-g4">Obese II</label>
+      <div class="c-bmi__group-text">People who have BMI equal or over 30 may have obesity, which is defined as an
+        abnormal or excessive accumulation of fat that may harm health.</div>
+      <input type="radio" id="bmi-g5" name="g" />
+      <label for="bmi-g5">Obese III</label>
+      <div class="c-bmi__group-text">People who have BMI equal or over 30 may have obesity, which is defined as an
+        abnormal or excessive accumulation of fat that may harm health.</div>
+    </div>
+  </form>
+</body>
+<script>
+  function B() { const e = this.h.valueAsNumber, t = this.w.valueAsNumber, i = parseFloat(t / (e / 100) ** 2).toFixed(2), h = [[0, 18.49], [18.5, 24.99], [25, 29.99], [30, 34.99], [35, 39.99], [40, 100]].findIndex(e => e[0] <= i && i < e[1]); let o = (.393700787 * e).toFixed(0); this.ho.value = `${e} cm / ${Math.floor(o / 12)}' ${o %= 12}"`, this.wo.value = `${t} kg / ${(2.2046 * t).toFixed(2)} lb`, this.g[h].checked = !0, this.r.value = i }
+  const bmi = document.querySelector('.c-bmi')
+  bmi.addEventListener('input', B);
+  bmi.dispatchEvent(new Event('input'));
+</script>
+
+</body>
+
+</html>

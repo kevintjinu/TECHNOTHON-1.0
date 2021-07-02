@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../CSS/docdashboard.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Welcome Doctor</title>
+</head>
+
+<body>
+    <div class="sidenav">
+        <ul id="ul-pad" style="list-style-type:none;">
+            <li>
+                <a href="Docdashboard.html" style="text-decoration:none">Homepage</a>
+            </li>
+            <li>
+                AI PULSE DETECTOR
+                <ul>
+                    <br>
+                    <a href="http://127.0.0.1:5000/my-link/" style="text-decoration:none;font-size: 20px;"><i
+                            class="fa fa-long-arrow-right" aria-hidden="true"></i>Pulse Detector</a> <br><br>
+                    <a href="../python/templates/graph.html" style="text-decoration:none;font-size: 20px;"><i
+                            class="fa fa-long-arrow-right" aria-hidden="true"></i>Graph</a>
+                </ul>
+            </li>
+            <li>
+                Prescription
+                <ul>
+                    <br>
+                    <a href="docpres.html" style="text-decoration:none;font-size: 20px;"><i
+                            class="fa fa-long-arrow-right" aria-hidden="true"></i></i> Create</a> <br><br>
+                    <a href="DocPresV.html" style="text-decoration:none;font-size: 20px;"><i
+                            class="fa fa-long-arrow-right" aria-hidden="true"></i></i> View</a>
+                </ul>
+            </li>
+            <li>
+                Communicate
+                <ul>
+                    <br>
+                    <a href="chat.html" style="text-decoration:none;font-size: 20px;"><i class="fa fa-long-arrow-right"
+                            aria-hidden="true"></i> Chat</a> <br><br>
+                    <a href="../sender/sender.html" style="text-decoration:none;font-size: 20px;"><i
+                            class="fa fa-long-arrow-right" aria-hidden="true"></i> Video Call</a>
+                </ul>
+            </li>
+            <li><a href="docbmi.html">BMI Calculator</a></li>
+            <li><a href="doccovid.html">COVID Tracker</a></li>
+
+            <li><a href="docLogin.html" onclick="logout()">Logout</a></li>
+        </ul>
+    </div>
+    <center>
+        <div id="user_div" class="loggedin-div">
+            <h2 style="padding-top:20%; color:white;" id="user_para">Welcome to your Dashboard Doctor</h2>
+
+        </div>
+    </center>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBoeNzQ_to7DelwlVXosDahp17xu8BI90I",
+        authDomain: "dolo-650-7aeee.firebaseapp.com",
+        projectId: "dolo-650-7aeee",
+        storageBucket: "dolo-650-7aeee.appspot.com",
+        messagingSenderId: "973071915696",
+        appId: "1:973071915696:web:aecce5ad2d92b50d27f975",
+        measurementId: "G-9NDC8MPZW8"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="../JS/docLogin.js"></script>
+
+</html>

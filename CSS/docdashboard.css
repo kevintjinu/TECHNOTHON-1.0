@@ -19,11 +19,9 @@ body {
   padding-top: 0px;
 }
 li {
-  padding-top: 26px;
+  padding-top: 16px;
 }
-#li-in {
-  color: rgb(255, 153, 37);
-}
+
 #arrow-size {
   font-size: 15px;
 }

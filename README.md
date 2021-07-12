@@ -15,11 +15,11 @@ SRM IST KTR
 - Keshav Rao (SRM IST KTR)
 - Deepak Shrinivas (SRM IST KTR)
 
-## Discord Usernames of TEAM MEMBERS
+<!-- ## Discord Usernames of TEAM MEMBERS
 - Kevin Jinu | Participant
 - Adhith Sankar | Participant
 - Deepak Shrinivas | Participant
-- Keshav Rao | Participant
+- Keshav Rao | Participant -->
 
 ## Tagline
 Mayo Clinic is a website that will be acting as a platform between doctors and patients making their communication easier.
